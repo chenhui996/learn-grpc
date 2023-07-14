@@ -149,11 +149,11 @@ getTaskList();
 在终端中分别执行以下命令以启动服务器和客户端：
 
 ```bash
-node server.js
+npm run server
 ```
 
 ```bash
-node client.js
+npm run client
 ```
 
 > 你将在服务器和客户端终端窗口中看到相应的输出，表示任务的创建和获取操作已成功。
