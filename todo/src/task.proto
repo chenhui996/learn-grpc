@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package task;
+
+message Empty {}
+
+message Task {
+    string name = 1;
+    string description = 2;
+}
+
+message TaskList {
+    repeated Task tasks = 1;
+}
+
+service TaskService {
+    rpc CreateTask(Task) returns (Task);
+    rpc GetTaskList(Empty) returns (TaskList);
+}
