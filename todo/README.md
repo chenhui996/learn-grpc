@@ -12,8 +12,7 @@
 ## 步骤 1：定义 Protocol Buffers 文件
 
 - 首先:
-  - **创建** 一个名为 **task.proto** 的文件.
-  - 使用 **Protocol Buffers 语法** 定义:
+  - **创建** 一个名为 **task.proto** 的文件, 使用 **Protocol Buffers 语法** 定义:
     - **消息类型**
     - **服务**
 
