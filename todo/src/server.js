@@ -28,7 +28,7 @@ function getTaskList(call, callback) {
   ];
 
   tasks.forEach((task) => {
-    const newTask = new task_pb.Task();
+    const newTask = new Task();
     newTask.setName(task.name);
     newTask.setDescription(task.description);
     taskList.addTasks(newTask);
